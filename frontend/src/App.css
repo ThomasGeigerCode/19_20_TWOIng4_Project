@@ -20,3 +20,11 @@
 .App-link {
   color: #09d3ac;
 }
+
+div.gauche {
+  float: left;
+}
+
+div.right {
+  text-align: right;
+}

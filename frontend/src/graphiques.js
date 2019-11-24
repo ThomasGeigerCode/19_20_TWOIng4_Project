@@ -26,19 +26,19 @@ const data = [
     name: 'Juillet', uv: 3490, pv: 4300, amt: 2100,
   },
   {
-    name: 'Août', uv: 3490, pv: 4300, amt: 2100,
+    name: 'Août', uv: 5000, pv: 4300, amt: 2100,
   },
   {
-    name: 'Septembre', uv: 3490, pv: 4300, amt: 2100,
+    name: 'Septembre', uv: 4300, pv: 6400, amt: 2100,
   },
   {
     name: 'Octobre', uv: 3490, pv: 4300, amt: 2100,
   },
   {
-    name: 'Novembre', uv: 3490, pv: 4300, amt: 2100,
+    name: 'Novembre', uv: 349, pv: 4300, amt: 2100,
   },
   {
-    name: 'Décembre', uv: 3490, pv: 4300, amt: 2100,
+    name: 'Décembre', uv: 3490, pv: 430, amt: 2100,
   },
 ];
 
@@ -48,8 +48,8 @@ export default class Graphique extends PureComponent {
   render() {
     return (
       <LineChart
-        width={1500}
-        height={300}
+        width={1400}
+        height={200}
         data={data}
         margin={{
           top: 5, right: 30, left: 20, bottom: 5,
