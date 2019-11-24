@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import ResponsiveContainer from "react-responsive-widget";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
@@ -38,7 +39,7 @@ const data = [
     name: 'Novembre', uv: 349, pv: 4300, amt: 2100,
   },
   {
-    name: 'Décembre', uv: 3490, pv: 430, amt: 2100,
+    name: 'Décembre', uv: 3490, pv: 2267, amt: 2100,
   },
 ];
 
@@ -48,7 +49,7 @@ export default class Graphique extends PureComponent {
   render() {
     return (
       <LineChart
-        width={1400}
+        width={1350}
         height={200}
         data={data}
         margin={{

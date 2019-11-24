@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import ResponsiveContainer from "react-responsive-widget";
 import {
   PieChart, Pie, Sector, Cell,
 } from 'recharts';
@@ -32,22 +33,32 @@ export default class Achats extends PureComponent {
 
   render() {
     return (
-      <PieChart width={400} height={400}>
-        <Pie
-          data={data}
-          cx={200}
-          cy={200}
-          labelLine={false}
-          label={renderCustomizedLabel}
-          outerRadius={80}
-          fill="#8884d8"
-          dataKey="value"
-        >
-          {
-            data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)
-          }
-        </Pie>
-      </PieChart>
+      <ResponsiveContainer>
+        <div className="app-row">
+          <div className="app-col-xs-12 app-col-md-6 app-col-sm-6">
+            <p> Total Achats : 3490€ </p>
+          </div>
+          <div className="app-col-xs-12 app-col-sm-6 app-col-md-6">
+            <PieChart width={400} height={400}>
+              <Pie
+                data={data}
+                cx={200}
+                cy={200}
+                labelLine={false}
+                label={renderCustomizedLabel}
+                outerRadius={80}
+                fill="#8884d8"
+                dataKey="value"
+              >
+                {
+                  data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)
+                }
+              </Pie>
+            </PieChart>
+          </div>
+        </div>
+      </ResponsiveContainer>
+
     );
   }
 }
