@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import ResponsiveContainer from "react-responsive-widget";
+import './App.css';
 import {
   PieChart, Pie, Sector, Cell,
 } from 'recharts';

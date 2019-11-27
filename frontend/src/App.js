@@ -6,6 +6,13 @@ import Achats from './achats.js'
 import Menu from './menu.js'
 import logo from './logo.svg';
 import './App.css';
+import Background from './images/back.jpg';
+
+var sectionStyle = {
+  width: "100%",
+  height: "400px",
+  backgroundImage: `url(${Background})`
+};
 
 function App() {
   return (

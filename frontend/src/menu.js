@@ -1,5 +1,6 @@
 import React from "react";
 import ResponsiveContainer from "react-responsive-widget";
+import './App.css';
 import buy from "./images/icons8-buy-48.png";
 import profil from "./images/icons8-profile-48.png";
 import sell from "./images/icons8-sell-48.png";
@@ -12,7 +13,7 @@ export default class Menu extends React.Component {
         return (
           <div>
             <button><img src={profil} /></button>
-            
+
             <button><img src={sell} /></button>
 
             <button><img src={buy} /></button>

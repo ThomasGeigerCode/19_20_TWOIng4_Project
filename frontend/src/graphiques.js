@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import ResponsiveContainer from "react-responsive-widget";
+import './App.css';
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
