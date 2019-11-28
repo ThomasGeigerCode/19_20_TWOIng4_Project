@@ -37,7 +37,16 @@ ResponsiveContainer.back {
 border-width:1px;
 border-style:solid;
 border-color:black;
+border-radius: 20px;
+background-color: #FDFEFE;
+}
+
+.bab {
+border-width:1px;
+border-style:solid;
+border-color:black;
 border-radius: 10px;
+background-color: #19CEB6;
 }
 
 section.bg {

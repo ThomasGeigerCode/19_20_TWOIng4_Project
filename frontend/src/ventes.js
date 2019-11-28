@@ -22,20 +22,11 @@ export default class Ventes extends PureComponent {
 
   render() {
     return (
-      <ResponsiveContainer>
-        <div className="app-row">
-          <div className="app-col-xs-12 app-col-md-6 app-col-sm-6">
-            <p> Total Ventes : 2267€ </p>
-          </div>
-          <div className="app-col-xs-12 app-col-sm-6 app-col-md-6">
-            <PieChart width={400} height={400}>
-              <Pie dataKey="value" isAnimationActive={false} data={data01} cx={200} cy={200} outerRadius={80} fill="#8884d8" label />
+            <PieChart width={400} height={300}>
+              <Pie dataKey="value" isAnimationActive={false} data={data01} cx={150} cy={200} outerRadius={70} fill="#8884d8" label />
               <Pie dataKey="value" data={data02} cx={500} cy={200} innerRadius={40} outerRadius={80} fill="#82ca9d" />
               <Tooltip />
             </PieChart>
-          </div>
-        </div>
-      </ResponsiveContainer>
     );
   }
 }

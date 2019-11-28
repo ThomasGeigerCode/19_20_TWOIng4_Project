@@ -50,11 +50,11 @@ export default class Graphique extends PureComponent {
   render() {
     return (
       <LineChart
-        width={1350}
-        height={200}
+        width={300}
+        height={300}
         data={data}
         margin={{
-          top: 5, right: 30, left: 20, bottom: 5,
+          top: 5, right: 30, left: 0, bottom: 5,
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
