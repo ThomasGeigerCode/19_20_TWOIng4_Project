@@ -1,5 +1,5 @@
 body{
-  background: radial-gradient(#e5e5e5, #9198e5);
+  background: radial-gradient(#e5e5e5, #1AC6DF);
 }
 
 .card{
@@ -23,6 +23,16 @@ body{
   padding-top: 6rem;
 }
 
-img{
-  height: 300px
+img.profil{
+  height: 300px;
+  width: 280px;
+}
+
+img.articles{
+  height: 100px;
+  width: 100px;
+}
+
+Form{
+  padding: 20px;
 }
