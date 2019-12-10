@@ -1,13 +1,3 @@
-var express = require("express");
-var path = require("path");
-var cookieParser = require("cookie-parser");
-var logger = require("morgan");
-
-var indexRouter = require("./routes/index");
-var usersRouter = require("./routes/users");
-
-var app = express();
-
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/user1', {useNewUrlParser: true});
 
@@ -17,14 +7,7 @@ db.once('open', function() {
   // we're connected!
 });
 
-app.use(logger("dev"));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-
-app.use("/", indexRouter);
-app.use("/users", usersRouter);
-
+//ajout d'un schema et d'un modele (creation bdd)
 
 const userSchema = new mongoose.Schema({
   prenom:{
@@ -43,7 +26,10 @@ const userSchema = new mongoose.Schema({
 
 var User = mongoose.model('User', userSchema);
 
+//Ajout d'un utilisateur a notre bdd
 
+var pers = new User({prenom:'Jean', nom:'Némar', statut:'Vendeur'});
 
-
-module.exports = app;
+pers.save(function(err, pers){
+  if (err) return console.error(err);
+});
