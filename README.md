@@ -1,23 +1,23 @@
 # Projet de fin de semestre
 
-A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
+Cher correcteur, 
 
-<p align="center">
- <a href="https://github.com/clementAC/Instructions-Technologies-Web-OCRES-Ing4/blob/master/README.md">Règles pour le semestre</a>
-</p>
+Notre Dashboard est destiné à un site de vente de vêtements
+Nous avons pu réaliser toutes les tâches de la partie frontend
+Pour le backend, il est possible de se connecter à la base de donnée, 
+et d'utiliser les requêtes permettant d'ajouter un utilisateur et de
+récuperer tous les utilisateurs.
+Le frontend et le backend fonctionnent indépendamment l'un de l'autre et la connexion 
+entre les deux nous a posé beaucoup de problèmes que nous n'avons malheuresement pas su résoudre 
 
-## Introduction
+Cordialement, 
 
-Ce repo git contient deux repertoires. L'un concerne la partie backend et l'autre la partie frontend.
+GEIGER THOMAS
+DE LAFORCADE IAN 
+OCRES 4
+ING 4
 
-Les deux repertoires ont été initialisé pour vous aider à démarrer le projet dans les meilleures conditions.
+Figma : https://www.figma.com/file/soBq8T2ALMEQmMIciDRCwg/Untitled?node-id=0%3A1
+Loom : https://www.loom.com/share/ae18aa2912f144bd83888f38ad764c04
+Trello : https://trello.com/b/HJJRcnlS/projettechnoweb
 
-Chacun de ces repertoires contient un README.md qui vous pouvez vous approprier. Nous vous encourageons à le faire en y mettant toute les informations nécessaires à la compréhension de votre projet
-
-## Instructions
-
-Les instructions sont à retrouver dans le pdf mis à disposition sur campus.
-
-**Le non respect de ces instructions entraînera des pertes de points alors prenez le temps de tout lire et de poser des questions si vous ne comprenez pas**
-
-Pour rappel, la probabilité de recevoir une réponse à un mail envoyé quelques heures avant le rendu est très proche de 0.

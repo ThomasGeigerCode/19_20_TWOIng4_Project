@@ -130,12 +130,18 @@ function Admin() {
   <div className="col-md-4 col-xs-12 col-sm-6">
 <div className="card text-center">
 
-
+  <div className="card-body text-dark">
+    <h4 className="card-title">Jean Némar</h4>
+    <p className="card-text text-secondary">
+        Statut : Vendeur
+    </p>
+    <a href="#" className="btn btn-outline-success">Supprimer</a>
+  </div>
 
   <div className="card-body text-dark">
-    <h4 className="card-title">Prénom Nom</h4>
+    <h4 className="card-title">Bilal Hassani</h4>
     <p className="card-text text-secondary">
-        Statut :
+        Statut : Vendeur
     </p>
     <a href="#" className="btn btn-outline-success">Supprimer</a>
   </div>
